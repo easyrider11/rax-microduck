@@ -1,0 +1,42 @@
+{
+  "close_reason": "task_complete",
+  "closed": true,
+  "end_reason": "task_complete",
+  "ended": true,
+  "episode_id": "walk_to_cube_exploration_002_abe93f59",
+  "ground_truth": {
+    "base": {
+      "xy_m": [
+        0.5237721366270861,
+        0.0611450821286916
+      ],
+      "yaw_rad": -0.6540181126001492,
+      "z_m": 0.1157886470955542
+    },
+    "cube_moved_m": 1.095148112772455e-09,
+    "cube_xy_m": [
+      0.6101209174404278,
+      0.032582935777192894
+    ],
+    "distance_m": 0.09048208999375637,
+    "feet_mid_xy_m": [
+      0.5240329136682103,
+      0.06043727504691672
+    ],
+    "gravity_z": -0.9999792166237544,
+    "speed_mps": 0.006518596391499305,
+    "still": true,
+    "trunk_z_m": 0.1157886470955542
+  },
+  "layout": {
+    "collection": 0,
+    "id": 1
+  },
+  "native_score": 1.0,
+  "native_success": true,
+  "run_id": "walk_to_cube_exploration_20261020T050219Z_26b3a3",
+  "started_at_unix_s": 1792472539.479151,
+  "step_id": 302,
+  "steps": 302,
+  "success": true
+}

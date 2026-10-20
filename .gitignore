@@ -8,3 +8,7 @@ runs/*
 runs/explore_record/**/published/**/frames/
 runs/explore_record/**/robot.sock
 .DS_Store
+runs/explore_record/formal/published/
+runs/explore_record/formal/*.log
+runs/explore_record/service.stdout
+runs/explore_record/socket.txt

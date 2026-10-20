@@ -1,0 +1,63 @@
+{
+  "controller": "/Users/PC/code/rax-microduck/runs/explore_record/agent-workspace/code/walk_to_cube/controller.py",
+  "episodes": 5,
+  "successes": 4,
+  "success_rate": 0.8,
+  "results": [
+    {
+      "episode": 0,
+      "episode_id": "walk_to_cube_formal_001_dbfa916b",
+      "success": true,
+      "end_reason": "task_complete",
+      "steps": 870,
+      "timed_out": false,
+      "wall_seconds": 5.9,
+      "controller_result": "{\"ok\": true, \"measured\": {\"after_approach\": {\"robot\": {\"xy\": [-0.5742985401382545, -0.69381880830438], \"yaw\": -1.6387166793340293}, \"cube_xy\": [-0.7316452166307555, -0.8358265465536583], \"dist\": 0.21195323617701922, \"step_id\": 300}, \"final\": {\"robot\": {\"xy\": [-0.659349895580815, -0.8528891112596895], \"yaw\": 2.7201616105768407}, \"cube_xy\": [-0.7329145994971652, -0.8405967590666424], \"dist\": 0.07458463370385467, \"step_id\": 870, \"episode_ended\": true, \"end_reason\": \"task_complete\", \"task_complete\": true}}, \"why\": \"episode_ended=True end_reason=task_complete\"}",
+      "stderr_tail": []
+    },
+    {
+      "episode": 1,
+      "episode_id": "walk_to_cube_formal_002_086525e8",
+      "success": true,
+      "end_reason": "task_complete",
+      "steps": 429,
+      "timed_out": false,
+      "wall_seconds": 2.9,
+      "controller_result": "{\"ok\": true, \"measured\": {\"after_approach\": {\"robot\": {\"xy\": [-0.49290182245872016, 0.06327299281244589], \"yaw\": -2.9863893870870375}, \"cube_xy\": [-0.6876434045771606, 0.043823735159977076], \"dist\": 0.19571039172518503, \"step_id\": 280}, \"final\": {\"robot\": {\"xy\": [-0.6179701962998908, 0.00933601726289241], \"yaw\": 2.7078957743079273}, \"cube_xy\": [-0.6892722501457819, 0.04454784142153127], \"dist\": 0.07952267251055671, \"step_id\": 429, \"episode_ended\": true, \"end_reason\": \"task_complete\", \"task_complete\": true}}, \"why\": \"episode_ended=True end_reason=task_complete\"}",
+      "stderr_tail": []
+    },
+    {
+      "episode": 2,
+      "episode_id": "walk_to_cube_formal_003_a8f85d34",
+      "success": true,
+      "end_reason": "task_complete",
+      "steps": 289,
+      "timed_out": false,
+      "wall_seconds": 2.2,
+      "controller_result": "{\"ok\": true, \"measured\": {\"after_approach\": {\"robot\": {\"xy\": [-0.2936830574012945, -0.2434791251415588], \"yaw\": -2.3189264130799048}, \"cube_xy\": [-0.48862620437248855, -0.3686257329032296], \"dist\": 0.231656003559774, \"step_id\": 150}, \"final\": {\"robot\": {\"xy\": [-0.4031410177095265, -0.34901919506210366], \"yaw\": -2.4150479421718343}, \"cube_xy\": [-0.4896627054868267, -0.37004877728455154], \"dist\": 0.08904069734836605, \"step_id\": 289, \"episode_ended\": true, \"end_reason\": \"task_complete\", \"task_complete\": true}}, \"why\": \"episode_ended=True end_reason=task_complete\"}",
+      "stderr_tail": []
+    },
+    {
+      "episode": 3,
+      "episode_id": "walk_to_cube_formal_004_04204873",
+      "success": true,
+      "end_reason": "task_complete",
+      "steps": 294,
+      "timed_out": false,
+      "wall_seconds": 2.1,
+      "controller_result": "{\"ok\": true, \"measured\": {\"after_approach\": {\"robot\": {\"xy\": [-0.3873194748763187, -0.11206468346904652], \"yaw\": -2.880536388994272}, \"cube_xy\": [-0.5848323073593192, -0.11540417160665774], \"dist\": 0.19754106200099028, \"step_id\": 150}, \"final\": {\"robot\": {\"xy\": [-0.5513479687746045, -0.1592404758542659], \"yaw\": 2.5046385879085866}, \"cube_xy\": [-0.5863216185314165, -0.11530700093795784], \"dist\": 0.056154308788676485, \"step_id\": 294, \"episode_ended\": true, \"end_reason\": \"task_complete\", \"task_complete\": true}}, \"why\": \"episode_ended=True end_reason=task_complete\"}",
+      "stderr_tail": []
+    },
+    {
+      "episode": 4,
+      "episode_id": "walk_to_cube_formal_005_d88a23a4",
+      "success": false,
+      "end_reason": "finish",
+      "steps": 1332,
+      "timed_out": false,
+      "wall_seconds": 9.7,
+      "controller_result": "{\"ok\": false, \"measured\": {\"after_approach\": {\"robot\": {\"xy\": [0.7980389232474722, -0.1645385182861511], \"yaw\": -0.7920703167641956}, \"cube_xy\": [0.9877863490134938, -0.21752735122331412], \"dist\": 0.19700736534676686, \"step_id\": 382}, \"final\": {\"robot\": {\"xy\": [0.8677907512389735, -0.23026154618826905], \"yaw\": -0.9684039283814162}, \"cube_xy\": [0.9877863490134938, -0.21752735122331412], \"dist\": 0.12066939631352244, \"step_id\": 1332, \"episode_ended\": false, \"end_reason\": null, \"task_complete\": false}}, \"why\": \"episode_ended=False end_reason=None\"}",
+      "stderr_tail": []
+    }
+  ]
+}

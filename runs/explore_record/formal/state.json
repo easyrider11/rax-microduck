@@ -1,0 +1,61 @@
+{
+  "collection": 1,
+  "episode": {
+    "close_reason": "finish",
+    "closed": true,
+    "end_reason": "finish",
+    "ended": true,
+    "episode_id": "walk_to_cube_formal_005_d88a23a4",
+    "layout": {
+      "collection": 1,
+      "id": 4
+    },
+    "run_id": "walk_to_cube_formal_20261020T051319Z_3fb31a",
+    "started_at_unix_s": 1792473199.727381,
+    "steps": 1332,
+    "success": false
+  },
+  "episodes_total": 5,
+  "episodes_used": 5,
+  "history": [
+    {
+      "end_reason": "task_complete",
+      "episode_id": "walk_to_cube_formal_001_dbfa916b",
+      "run_id": "walk_to_cube_formal_20261020T051305Z_6803a6",
+      "steps": 870,
+      "success": true
+    },
+    {
+      "end_reason": "task_complete",
+      "episode_id": "walk_to_cube_formal_002_086525e8",
+      "run_id": "walk_to_cube_formal_20261020T051312Z_2ae304",
+      "steps": 429,
+      "success": true
+    },
+    {
+      "end_reason": "task_complete",
+      "episode_id": "walk_to_cube_formal_003_a8f85d34",
+      "run_id": "walk_to_cube_formal_20261020T051315Z_ad8a0f",
+      "steps": 289,
+      "success": true
+    },
+    {
+      "end_reason": "task_complete",
+      "episode_id": "walk_to_cube_formal_004_04204873",
+      "run_id": "walk_to_cube_formal_20261020T051317Z_038c79",
+      "steps": 294,
+      "success": true
+    },
+    {
+      "end_reason": "finish",
+      "episode_id": "walk_to_cube_formal_005_d88a23a4",
+      "run_id": "walk_to_cube_formal_20261020T051319Z_3fb31a",
+      "steps": 1332,
+      "success": false
+    }
+  ],
+  "next_layout": 5,
+  "peak_rss_mb": 746.2,
+  "task": "walk_to_cube",
+  "updated_at_unix_s": 1792473209.4908302
+}

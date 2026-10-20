@@ -1,0 +1,89 @@
+{
+ "active": true,
+ "task": "walk_to_cube",
+ "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+ "robot": "Pollen Microduck: a 25 cm, 800 g biped with 5-DoF legs and a 4-DoF head carrying the head camera, driven by a pretrained walking policy that takes velocity commands",
+ "episode_id": "walk_to_cube_exploration_001_52ae7004",
+ "step_id": 0,
+ "action_layout": {
+  "twist": {
+   "fields": [
+    "vx_mps",
+    "vy_mps",
+    "yaw_rate_radps"
+   ],
+   "limits": [
+    [
+     -0.4,
+     0.4
+    ],
+    [
+     -0.3,
+     0.3
+    ],
+    [
+     -1.0,
+     1.0
+    ]
+   ],
+   "frame": "trunk (robot) frame: +x forward, +y left, yaw counter-clockwise from above",
+   "semantics": "a velocity command to the pretrained walking policy; it is held for every step of the call. Below 0.05 in magnitude the standing policy runs instead."
+  },
+  "head": {
+   "fields": [
+    "neck_pitch",
+    "head_pitch",
+    "head_yaw",
+    "head_roll"
+   ],
+   "unit": "rad, delta from the home pose",
+   "limits": [
+    [
+     -1.1,
+     1.1
+    ],
+    [
+     -1.1,
+     1.1
+    ],
+    [
+     -1.4,
+     1.4
+    ],
+    [
+     -0.31,
+     0.31
+    ]
+   ],
+   "semantics": "head pose targets tracked by the policy; positive head_yaw turns the camera left, positive pitch tilts it down. The head camera moves with the head."
+  },
+  "step": "one control step is 20 ms of physics; the policy runs once per step"
+ },
+ "cameras": [
+  "head_camera",
+  "overview"
+ ],
+ "image_size": [
+  320,
+  240
+ ],
+ "max_steps_per_call": 150,
+ "control_frequency_hz": 50,
+ "physics_seconds_per_step": 0.02,
+ "twist_limits": [
+  0.4,
+  0.3,
+  1.0
+ ],
+ "head_limits": [
+  1.1,
+  1.1,
+  1.4,
+  0.31
+ ],
+ "episode_limits": {
+  "episode_step_limit": 1500,
+  "remaining_episode_steps": 1500
+ },
+ "episode_ended": false
+}

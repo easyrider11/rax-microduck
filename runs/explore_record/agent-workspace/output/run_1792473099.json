@@ -1,0 +1,365 @@
+{
+ "log": {
+  "t0": 1792473099.5297139,
+  "perceptions": [
+   {
+    "tag": "approach0",
+    "robot": {
+     "xy": [
+      0.08603936746857688,
+      0.0695015837108204
+     ],
+     "yaw": -0.04870944871771814
+    },
+    "cube_xy": null,
+    "source": null,
+    "head": null,
+    "overview": null,
+    "step_id": 0,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1500,
+    "lock": null
+   },
+   {
+    "tag": "scan_head+0.9",
+    "robot": {
+     "xy": [
+      0.08603936746857688,
+      0.0695015837108204
+     ],
+     "yaw": -0.04870944871771814
+    },
+    "cube_xy": null,
+    "source": null,
+    "head": null,
+    "overview": null,
+    "step_id": 0,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1500,
+    "lock": null
+   },
+   {
+    "tag": "scan_head-0.9",
+    "robot": {
+     "xy": [
+      0.08603936746857688,
+      0.0695015837108204
+     ],
+     "yaw": -0.04870944871771814
+    },
+    "cube_xy": [
+     1.0253105244648386,
+     0.07844679101690318
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.0253105244648386,
+      0.07844679101690318
+     ],
+     "method": "side_push",
+     "pixels": 271,
+     "top_pts": 86,
+     "clipped": false,
+     "uv": [
+      139.06273062730628,
+      137.21033210332104
+     ],
+     "depth_m": 0.849
+    },
+    "overview": {
+     "xy": [
+      1.0251942264226286,
+      0.07832543014683205
+     ],
+     "method": "side_push",
+     "pixels": 69,
+     "top_pts": 21,
+     "clipped": false,
+     "uv": [
+      87.2463768115942,
+      74.40579710144928
+     ],
+     "depth_m": 1.512
+    },
+    "step_id": 0,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1500,
+    "dist": 0.9393137511496598,
+    "bearing_err": 0.058232723030990474,
+    "lock": null
+   },
+   {
+    "tag": "approach1",
+    "robot": {
+     "xy": [
+      0.08603936746857688,
+      0.0695015837108204
+     ],
+     "yaw": -0.04870944871771814
+    },
+    "cube_xy": [
+     1.0253105244648386,
+     0.07844679101690318
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.0253105244648386,
+      0.07844679101690318
+     ],
+     "method": "side_push",
+     "pixels": 271,
+     "top_pts": 86,
+     "clipped": false,
+     "uv": [
+      139.06273062730628,
+      137.21033210332104
+     ],
+     "depth_m": 0.849
+    },
+    "overview": {
+     "xy": [
+      1.0251942264226286,
+      0.07832543014683205
+     ],
+     "method": "side_push",
+     "pixels": 69,
+     "top_pts": 21,
+     "clipped": false,
+     "uv": [
+      87.2463768115942,
+      74.40579710144928
+     ],
+     "depth_m": 1.512
+    },
+    "step_id": 0,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1500,
+    "dist": 0.9393137511496598,
+    "bearing_err": 0.058232723030990474,
+    "lock": null
+   },
+   {
+    "tag": "approach2",
+    "robot": {
+     "xy": [
+      0.08603936746857688,
+      0.0695015837108204
+     ],
+     "yaw": -0.04870944871771814
+    },
+    "cube_xy": [
+     1.0253105244648386,
+     0.07844679101690318
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.0253105244648386,
+      0.07844679101690318
+     ],
+     "method": "side_push",
+     "pixels": 271,
+     "top_pts": 86,
+     "clipped": false,
+     "uv": [
+      139.06273062730628,
+      137.21033210332104
+     ],
+     "depth_m": 0.849
+    },
+    "overview": {
+     "xy": [
+      1.0251942264226286,
+      0.07832543014683205
+     ],
+     "method": "side_push",
+     "pixels": 69,
+     "top_pts": 21,
+     "clipped": false,
+     "uv": [
+      87.2463768115942,
+      74.40579710144928
+     ],
+     "depth_m": 1.512
+    },
+    "step_id": 0,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1500,
+    "dist": 0.9393137511496598,
+    "bearing_err": 0.058232723030990474,
+    "lock": null
+   },
+   {
+    "tag": "approach3",
+    "robot": {
+     "xy": [
+      0.08603936746857688,
+      0.0695015837108204
+     ],
+     "yaw": -0.04870944871771814
+    },
+    "cube_xy": [
+     1.0253105244648386,
+     0.07844679101690318
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.0253105244648386,
+      0.07844679101690318
+     ],
+     "method": "side_push",
+     "pixels": 271,
+     "top_pts": 86,
+     "clipped": false,
+     "uv": [
+      139.06273062730628,
+      137.21033210332104
+     ],
+     "depth_m": 0.849
+    },
+    "overview": {
+     "xy": [
+      1.0251942264226286,
+      0.07832543014683205
+     ],
+     "method": "side_push",
+     "pixels": 69,
+     "top_pts": 21,
+     "clipped": false,
+     "uv": [
+      87.2463768115942,
+      74.40579710144928
+     ],
+     "depth_m": 1.512
+    },
+    "step_id": 0,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1500,
+    "dist": 0.9393137511496598,
+    "bearing_err": 0.058232723030990474,
+    "lock": null
+   },
+   {
+    "tag": "approach4",
+    "robot": {
+     "xy": [
+      0.08603936746857688,
+      0.0695015837108204
+     ],
+     "yaw": -0.04870944871771814
+    },
+    "cube_xy": [
+     1.0253105244648386,
+     0.07844679101690318
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.0253105244648386,
+      0.07844679101690318
+     ],
+     "method": "side_push",
+     "pixels": 271,
+     "top_pts": 86,
+     "clipped": false,
+     "uv": [
+      139.06273062730628,
+      137.21033210332104
+     ],
+     "depth_m": 0.849
+    },
+    "overview": {
+     "xy": [
+      1.0251942264226286,
+      0.07832543014683205
+     ],
+     "method": "side_push",
+     "pixels": 69,
+     "top_pts": 21,
+     "clipped": false,
+     "uv": [
+      87.2463768115942,
+      74.40579710144928
+     ],
+     "depth_m": 1.512
+    },
+    "step_id": 0,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1500,
+    "dist": 0.9393137511496598,
+    "bearing_err": 0.058232723030990474,
+    "lock": null
+   },
+   {
+    "tag": "approach5",
+    "robot": {
+     "xy": [
+      0.08603936746857688,
+      0.0695015837108204
+     ],
+     "yaw": -0.04870944871771814
+    },
+    "cube_xy": null,
+    "source": null,
+    "head": null,
+    "overview": null,
+    "step_id": 0,
+    "episode_ended": true,
+    "task_complete": true,
+    "end_reason": "task_complete",
+    "remaining": 1500,
+    "lock": null
+   }
+  ]
+ },
+ "report": {
+  "ok": true,
+  "measured": {
+   "after_approach": {
+    "robot": {
+     "xy": [
+      0.08603936746857688,
+      0.0695015837108204
+     ],
+     "yaw": -0.04870944871771814
+    },
+    "cube_xy": null,
+    "dist": null,
+    "step_id": 0
+   },
+   "final": {
+    "robot": {
+     "xy": [
+      0.08603936746857688,
+      0.0695015837108204
+     ],
+     "yaw": -0.04870944871771814
+    },
+    "cube_xy": null,
+    "dist": null,
+    "step_id": 0,
+    "episode_ended": true,
+    "end_reason": "task_complete",
+    "task_complete": true
+   }
+  },
+  "why": "episode_ended=True end_reason=task_complete"
+ }
+}

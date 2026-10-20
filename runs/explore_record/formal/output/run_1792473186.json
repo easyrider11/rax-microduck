@@ -1,0 +1,1042 @@
+{
+ "log": {
+  "t0": 1792473186.374352,
+  "perceptions": [
+   {
+    "tag": "approach0",
+    "robot": {
+     "xy": [
+      0.05577719943321975,
+      -0.10756652874846745
+     ],
+     "yaw": -1.9781778607449259
+    },
+    "cube_xy": [
+     -0.7390541414444898,
+     -0.8450860566589321
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      -0.7390541414444898,
+      -0.8450860566589321
+     ],
+     "method": "side_push",
+     "pixels": 265,
+     "top_pts": 83,
+     "clipped": false,
+     "uv": [
+      256.8905660377358,
+      150.4754716981132
+     ],
+     "depth_m": 0.918
+    },
+    "overview": null,
+    "step_id": 0,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1500,
+    "dist": 1.084293278818389,
+    "bearing_err": -0.4154004381783585,
+    "lock": null
+   },
+   {
+    "tag": "approach1",
+    "robot": {
+     "xy": [
+      -0.03365303344407778,
+      -0.2227533136314697
+     ],
+     "yaw": -2.3198976705600334
+    },
+    "cube_xy": [
+     -0.7392020837668043,
+     -0.8448484279257404
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      -0.7392020837668043,
+      -0.8448484279257404
+     ],
+     "method": "side_push",
+     "pixels": 327,
+     "top_pts": 106,
+     "clipped": false,
+     "uv": [
+      208.60550458715596,
+      188.94495412844037
+     ],
+     "depth_m": 0.822
+    },
+    "overview": null,
+    "step_id": 50,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1450,
+    "dist": 0.9406390347206005,
+    "bearing_err": -0.0990728882352565,
+    "lock": null
+   },
+   {
+    "tag": "approach2",
+    "robot": {
+     "xy": [
+      -0.1578593006787566,
+      -0.32556040269137393
+     ],
+     "yaw": -2.5544160919481245
+    },
+    "cube_xy": [
+     -0.7395882415575938,
+     -0.8461781480612371
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      -0.7395882415575938,
+      -0.8461781480612371
+     ],
+     "method": "side_push",
+     "pixels": 465,
+     "top_pts": 157,
+     "clipped": false,
+     "uv": [
+      146.96344086021506,
+      193.31397849462365
+     ],
+     "depth_m": 0.683
+    },
+    "overview": null,
+    "step_id": 100,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1400,
+    "dist": 0.7806736817966989,
+    "bearing_err": 0.14284092425734762,
+    "lock": null
+   },
+   {
+    "tag": "approach3",
+    "robot": {
+     "xy": [
+      -0.3071588573718361,
+      -0.4119738396957619
+     ],
+     "yaw": -2.482951012610513
+    },
+    "cube_xy": [
+     -0.7398272567034828,
+     -0.8460293697393722
+    ],
+    "source": "head_clipped",
+    "head": {
+     "xy": [
+      -0.7398272567034828,
+      -0.8460293697393722
+     ],
+     "method": "side_push",
+     "pixels": 863,
+     "top_pts": 314,
+     "clipped": true,
+     "uv": [
+      152.8864426419467,
+      222.82850521436848
+     ],
+     "depth_m": 0.514
+    },
+    "overview": null,
+    "step_id": 150,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1350,
+    "dist": 0.6128671527677501,
+    "bearing_err": 0.12835695074445708,
+    "lock": null
+   },
+   {
+    "tag": "approach4",
+    "robot": {
+     "xy": [
+      -0.4325569756776835,
+      -0.5124148130597604
+     ],
+     "yaw": -2.324787901477057
+    },
+    "cube_xy": [
+     -0.7404396308740259,
+     -0.8461233785012592
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      -0.7404396308740259,
+      -0.8461233785012592
+     ],
+     "method": "side_push",
+     "pixels": 1457,
+     "top_pts": 612,
+     "clipped": false,
+     "uv": [
+      165.01372683596432,
+      75.96499656829101
+     ],
+     "depth_m": 0.377
+    },
+    "overview": null,
+    "step_id": 200,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1300,
+    "dist": 0.45404089685817167,
+    "bearing_err": 0.00882459652710521,
+    "lock": [
+     -0.7404396308740259,
+     -0.8461233785012592
+    ]
+   },
+   {
+    "tag": "approach5",
+    "robot": {
+     "xy": [
+      -0.5459595233774505,
+      -0.6363618016833826
+     ],
+     "yaw": -2.2706366151588804
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      -0.7316452166307555,
+      -0.8358265465536583
+     ],
+     "method": "top_face",
+     "pixels": 3234,
+     "top_pts": 1745,
+     "clipped": false,
+     "uv": [
+      160.07111935683363,
+      180.62585034013605
+     ],
+     "depth_m": 0.246
+    },
+    "overview": null,
+    "step_id": 250,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1250,
+    "dist": 0.272516717148003,
+    "bearing_err": -0.049797361383240535,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "approach_stop",
+    "robot": {
+     "xy": [
+      -0.5742985401382545,
+      -0.69381880830438
+     ],
+     "yaw": -1.6387166793340293
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7281463548184869,
+      -0.867682578085855
+     ],
+     "method": "side_push",
+     "pixels": 130,
+     "top_pts": 0,
+     "clipped": true,
+     "uv": [
+      316.0769230769231,
+      129.62307692307692
+     ],
+     "depth_m": 0.186
+    },
+    "overview": null,
+    "step_id": 300,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1200,
+    "dist": 0.21195323617701922,
+    "bearing_err": -0.7686730972660119,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch_start",
+    "robot": {
+     "xy": [
+      -0.5742985401382545,
+      -0.69381880830438
+     ],
+     "yaw": -1.6387166793340293
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7281463548184869,
+      -0.867682578085855
+     ],
+     "method": "side_push",
+     "pixels": 130,
+     "top_pts": 0,
+     "clipped": true,
+     "uv": [
+      316.0769230769231,
+      129.62307692307692
+     ],
+     "depth_m": 0.186
+    },
+    "overview": null,
+    "step_id": 300,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1200,
+    "dist": 0.21195323617701922,
+    "bearing_err": -0.7686730972660119,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch0_burst",
+    "robot": {
+     "xy": [
+      -0.5743647709915835,
+      -0.772461938470584
+     ],
+     "yaw": -1.87748826204438
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7228298526272865,
+      -0.8442723382978155
+     ],
+     "method": "top_face",
+     "pixels": 6141,
+     "top_pts": 3452,
+     "clipped": true,
+     "uv": [
+      287.2066438690767,
+      186.72317212180425
+     ],
+     "depth_m": 0.146
+    },
+    "overview": null,
+    "step_id": 330,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1170,
+    "dist": 0.16956477269167136,
+    "bearing_err": -0.8811206662668032,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch0_hold",
+    "robot": {
+     "xy": [
+      -0.570928497427993,
+      -0.8197979949190041
+     ],
+     "yaw": -2.064013178742782
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7315778773819614,
+      -0.8515176264480153
+     ],
+     "method": "side_push",
+     "pixels": 50,
+     "top_pts": 0,
+     "clipped": true,
+     "uv": [
+      317.28,
+      227.74
+     ],
+     "depth_m": 0.15225
+    },
+    "overview": null,
+    "step_id": 380,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1120,
+    "dist": 0.16151401889249242,
+    "bearing_err": -0.9781764729083231,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch1_turn",
+    "robot": {
+     "xy": [
+      -0.5738884105591773,
+      -0.8208162814819162
+     ],
+     "yaw": -2.308899092366063
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7260478017341552,
+      -0.8513906959417122
+     ],
+     "method": "top_face",
+     "pixels": 6059,
+     "top_pts": 3786,
+     "clipped": true,
+     "uv": [
+      287.1346756890576,
+      194.14342300709689
+     ],
+     "depth_m": 0.133
+    },
+    "overview": null,
+    "step_id": 420,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1080,
+    "dist": 0.15846929645653607,
+    "bearing_err": -0.7378310123298757,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch1_turnhold",
+    "robot": {
+     "xy": [
+      -0.5715521500901535,
+      -0.8212548229937201
+     ],
+     "yaw": -2.089423482624497
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7330881989597853,
+      -0.8529242884357783
+     ],
+     "method": "side_push",
+     "pixels": 36,
+     "top_pts": 0,
+     "clipped": true,
+     "uv": [
+      317.0,
+      236.27777777777777
+     ],
+     "depth_m": 0.15
+    },
+    "overview": null,
+    "step_id": 450,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1050,
+    "dist": 0.1607548602123149,
+    "bearing_err": -0.961398958736789,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch2_turn",
+    "robot": {
+     "xy": [
+      -0.5726697436349469,
+      -0.8227949252020347
+     ],
+     "yaw": -2.330268162135059
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7267162903853952,
+      -0.8501867134726023
+     ],
+     "method": "top_face",
+     "pixels": 6615,
+     "top_pts": 4092,
+     "clipped": true,
+     "uv": [
+      285.51337868480726,
+      190.91987906273621
+     ],
+     "depth_m": 0.134
+    },
+    "overview": null,
+    "step_id": 490,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 1010,
+    "dist": 0.15950869621839797,
+    "bearing_err": -0.7295348317980692,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch2_turnhold",
+    "robot": {
+     "xy": [
+      -0.572332955056875,
+      -0.823236589305761
+     ],
+     "yaw": -2.103702452907946
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7347743302879334,
+      -0.853160543299682
+     ],
+     "method": "side_push",
+     "pixels": 43,
+     "top_pts": 0,
+     "clipped": true,
+     "uv": [
+      316.7906976744186,
+      235.95348837209303
+     ],
+     "depth_m": 0.151
+    },
+    "overview": null,
+    "step_id": 520,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 980,
+    "dist": 0.1598089600469524,
+    "bearing_err": -0.9590271819958303,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch3_turn",
+    "robot": {
+     "xy": [
+      -0.5731329609611306,
+      -0.8249921253429886
+     ],
+     "yaw": -2.3298243825828377
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7260692772963148,
+      -0.8515274155730292
+     ],
+     "method": "top_face",
+     "pixels": 6087,
+     "top_pts": 3793,
+     "clipped": true,
+     "uv": [
+      286.6568095942172,
+      194.68178084442255
+     ],
+     "depth_m": 0.133
+    },
+    "overview": null,
+    "step_id": 560,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 940,
+    "dist": 0.15888209427258548,
+    "bearing_err": -0.7435237295316357,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch3_turnhold",
+    "robot": {
+     "xy": [
+      -0.5731533397102939,
+      -0.8249698355830335
+     ],
+     "yaw": -2.1170265165323645
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7338624184970666,
+      -0.8522956785520885
+     ],
+     "method": "side_push",
+     "pixels": 100,
+     "top_pts": 0,
+     "clipped": true,
+     "uv": [
+      315.5,
+      233.93
+     ],
+     "depth_m": 0.14875
+    },
+    "overview": null,
+    "step_id": 590,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 910,
+    "dist": 0.15886328469117855,
+    "bearing_err": -0.9561728668553204,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch4_turn",
+    "robot": {
+     "xy": [
+      -0.5732511683451444,
+      -0.8263682670522042
+     ],
+     "yaw": -2.345730721081582
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7260724343527524,
+      -0.8518591943840246
+     ],
+     "method": "top_face",
+     "pixels": 6062,
+     "top_pts": 3755,
+     "clipped": true,
+     "uv": [
+      286.76245463543387,
+      194.7901682612999
+     ],
+     "depth_m": 0.133
+    },
+    "overview": null,
+    "step_id": 630,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 870,
+    "dist": 0.15867619097845817,
+    "bearing_err": -0.7362191507736,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch4_turnhold",
+    "robot": {
+     "xy": [
+      -0.5739120503894786,
+      -0.8263968062900352
+     ],
+     "yaw": -2.1299381756762585
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7363743184294465,
+      -0.8530183820550717
+     ],
+     "method": "side_push",
+     "pixels": 53,
+     "top_pts": 0,
+     "clipped": true,
+     "uv": [
+      316.64150943396226,
+      235.35849056603774
+     ],
+     "depth_m": 0.15
+    },
+    "overview": null,
+    "step_id": 660,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 840,
+    "dist": 0.15801478327655838,
+    "bearing_err": -0.951942683735826,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch5_turn",
+    "robot": {
+     "xy": [
+      -0.5776306027779441,
+      -0.828376863734139
+     ],
+     "yaw": -2.4316204951479166
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7298790864526086,
+      -0.8440677634473889
+     ],
+     "method": "top_face",
+     "pixels": 8181,
+     "top_pts": 5876,
+     "clipped": true,
+     "uv": [
+      276.06979586847575,
+      190.93949394939494
+     ],
+     "depth_m": 0.134
+    },
+    "overview": null,
+    "step_id": 700,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 800,
+    "dist": 0.15419467907272955,
+    "bearing_err": -0.6616398548941631,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch5_turnhold",
+    "robot": {
+     "xy": [
+      -0.5834584099425637,
+      -0.8129212003362438
+     ],
+     "yaw": -2.1681025903552222
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7409479723985232,
+      -0.8464006929078112
+     ],
+     "method": "side_push",
+     "pixels": 3142,
+     "top_pts": 734,
+     "clipped": true,
+     "uv": [
+      300.8911521323997,
+      191.2040101845958
+     ],
+     "depth_m": 0.129
+    },
+    "overview": null,
+    "step_id": 730,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 770,
+    "dist": 0.14994660570277396,
+    "bearing_err": -0.820132967124561,
+    "lock": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ]
+   },
+   {
+    "tag": "inch6_turn",
+    "robot": {
+     "xy": [
+      -0.5853740742623035,
+      -0.8295645579854035
+     ],
+     "yaw": -2.6319214116959304
+    },
+    "cube_xy": [
+     -0.7323947357026663,
+     -0.8401152342199556
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      -0.7323947357026663,
+      -0.8401152342199556
+     ],
+     "method": "top_face",
+     "pixels": 7288,
+     "top_pts": 5692,
+     "clipped": false,
+     "uv": [
+      204.6405049396268,
+      162.68743139407246
+     ],
+     "depth_m": 0.145
+    },
+    "overview": null,
+    "step_id": 770,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 730,
+    "dist": 0.14739875053530183,
+    "bearing_err": -0.4380308340878023,
+    "lock": [
+     -0.7323947357026663,
+     -0.8401152342199556
+    ]
+   },
+   {
+    "tag": "inch6_turnhold",
+    "robot": {
+     "xy": [
+      -0.5800038006234849,
+      -0.8129626408606624
+     ],
+     "yaw": -2.8065238554200445
+    },
+    "cube_xy": [
+     -0.7318163938161083,
+     -0.838905652639501
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      -0.7318163938161083,
+      -0.838905652639501
+     ],
+     "method": "top_face",
+     "pixels": 7311,
+     "top_pts": 5670,
+     "clipped": false,
+     "uv": [
+      199.6138695116947,
+      152.43687594036385
+     ],
+     "depth_m": 0.142
+    },
+    "overview": null,
+    "step_id": 800,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 700,
+    "dist": 0.1540133218654345,
+    "bearing_err": -0.16581531753955403,
+    "lock": [
+     -0.7318163938161083,
+     -0.838905652639501
+    ]
+   },
+   {
+    "tag": "inch7_burst",
+    "robot": {
+     "xy": [
+      -0.5946739440080404,
+      -0.8519184299707571
+     ],
+     "yaw": -2.880644420614169
+    },
+    "cube_xy": [
+     -0.7329145994971652,
+     -0.8405967590666424
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      -0.7329145994971652,
+      -0.8405967590666424
+     ],
+     "method": "top_face",
+     "pixels": 7504,
+     "top_pts": 6184,
+     "clipped": false,
+     "uv": [
+      186.44749466950958,
+      153.90378464818764
+     ],
+     "depth_m": 0.138
+    },
+    "overview": null,
+    "step_id": 820,
+    "episode_ended": false,
+    "task_complete": false,
+    "end_reason": null,
+    "remaining": 680,
+    "dist": 0.13870349333064386,
+    "bearing_err": -0.3426641329070783,
+    "lock": [
+     -0.7329145994971652,
+     -0.8405967590666424
+    ]
+   },
+   {
+    "tag": "inch7_hold",
+    "robot": {
+     "xy": [
+      -0.659349895580815,
+      -0.8528891112596895
+     ],
+     "yaw": 2.7201616105768407
+    },
+    "cube_xy": [
+     -0.7329145994971652,
+     -0.8405967590666424
+    ],
+    "source": "lock",
+    "head": {
+     "xy": [
+      -0.7540037468718088,
+      -0.8329720514281718
+     ],
+     "method": "top_face",
+     "pixels": 2594,
+     "top_pts": 2553,
+     "clipped": true,
+     "uv": [
+      125.20778720123361,
+      223.16114109483422
+     ],
+     "depth_m": 0.112
+    },
+    "overview": null,
+    "step_id": 870,
+    "episode_ended": true,
+    "task_complete": true,
+    "end_reason": "task_complete",
+    "remaining": 630,
+    "dist": 0.07458463370385467,
+    "bearing_err": 0.2558648709091633,
+    "lock": [
+     -0.7329145994971652,
+     -0.8405967590666424
+    ]
+   }
+  ]
+ },
+ "report": {
+  "ok": true,
+  "measured": {
+   "after_approach": {
+    "robot": {
+     "xy": [
+      -0.5742985401382545,
+      -0.69381880830438
+     ],
+     "yaw": -1.6387166793340293
+    },
+    "cube_xy": [
+     -0.7316452166307555,
+     -0.8358265465536583
+    ],
+    "dist": 0.21195323617701922,
+    "step_id": 300
+   },
+   "final": {
+    "robot": {
+     "xy": [
+      -0.659349895580815,
+      -0.8528891112596895
+     ],
+     "yaw": 2.7201616105768407
+    },
+    "cube_xy": [
+     -0.7329145994971652,
+     -0.8405967590666424
+    ],
+    "dist": 0.07458463370385467,
+    "step_id": 870,
+    "episode_ended": true,
+    "end_reason": "task_complete",
+    "task_complete": true
+   }
+  },
+  "why": "episode_ended=True end_reason=task_complete"
+ }
+}

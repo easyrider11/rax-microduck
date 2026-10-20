@@ -1,0 +1,28 @@
+{
+  "mode": "auto-research",
+  "phase": "exploration",
+  "observation_profile": "rgbd",
+  "exploration_envs": 1,
+  "subagents": 0,
+  "robot_tools": [
+    "microduck_hold",
+    "microduck_observe",
+    "microduck_pixel_to_position",
+    "microduck_status",
+    "microduck_step"
+  ],
+  "gemini": false,
+  "benchmark": "microduck",
+  "role": "exploration",
+  "tools": [
+    "evaluate",
+    "finish",
+    "microduck_hold",
+    "microduck_observe",
+    "microduck_pixel_to_position",
+    "microduck_status",
+    "microduck_step",
+    "start_episode",
+    "status"
+  ]
+}

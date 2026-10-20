@@ -1,0 +1,53 @@
+started: walk_to_cube_exploration_004_de0aa739
+[approach0] step 0 rem 1500 base (0.009,-0.104) yaw -2.220 cube [-0.303, -0.721] src head_camera d 0.692 err 0.18 head=(489, 'side_push', False) ended False 
+[approach1] step 50 rem 1450 base (-0.089,-0.187) yaw -2.190 cube [-0.304, -0.722] src head_camera d 0.577 err 0.237 head=(871, 'side_push', False) ended False 
+[approach2] step 100 rem 1400 base (-0.176,-0.340) yaw -1.918 cube [-0.304, -0.722] src head_camera d 0.403 err 0.024 head=(1517, 'side_push', False) ended False 
+[approach3] step 125 rem 1375 base (-0.196,-0.417) yaw -1.832 cube [-0.302, -0.711] src head_camera d 0.313 err -0.085 head=(2282, 'top_face', False) ended False 
+[approach4] step 150 rem 1350 base (-0.211,-0.497) yaw -1.823 cube [-0.302, -0.711] src lock d 0.233 err -0.148 head=(3605, 'top_face', True) ended False 
+[approach_stop] step 200 rem 1300 base (-0.208,-0.551) yaw -1.790 cube [-0.303, -0.713] src head_camera d 0.188 err -0.312 head=(6794, 'top_face', False) ended False 
+[inch_start] step 200 rem 1300 base (-0.208,-0.551) yaw -1.790 cube [-0.303, -0.713] src head_camera d 0.188 err -0.312 head=(6794, 'top_face', False) ended False 
+[inch0_burst] step 230 rem 1270 base (-0.255,-0.584) yaw -1.942 cube [-0.303, -0.714] src head_camera d 0.139 err 0.011 head=(7067, 'top_face', False) ended False 
+[inch0_hold] step 280 rem 1220 base (-0.233,-0.615) yaw -2.142 cube [-0.303, -0.715] src head_camera d 0.122 err -0.041 head=(8850, 'top_face', False) ended False 
+[inch1_burst] step 295 rem 1205 base (-0.224,-0.637) yaw -2.124 cube [-0.303, -0.716] src head_camera d 0.113 err -0.234 head=(10085, 'top_face', False) ended False 
+[inch1_hold] step 344 rem 1156 base (-0.243,-0.650) yaw -2.389 cube [-0.303, -0.716] src lock d 0.089 err 0.072 head=(6083, 'top_face', True) ended True task_complete
+{
+ "ok": true,
+ "measured": {
+  "after_approach": {
+   "robot": {
+    "xy": [
+     -0.207568002369913,
+     -0.5508058426672534
+    ],
+    "yaw": -1.7903488293816159
+   },
+   "cube_xy": [
+    -0.3027067584685261,
+    -0.7126596333039134
+   ],
+   "dist": 0.18774459367834576,
+   "step_id": 200
+  },
+  "final": {
+   "robot": {
+    "xy": [
+     -0.24279750116788765,
+     -0.6503102596203036
+    ],
+    "yaw": -2.388585273027037
+   },
+   "cube_xy": [
+    -0.3034536934446959,
+    -0.7159883132990319
+   ],
+   "dist": 0.08940235118019572,
+   "step_id": 344,
+   "episode_ended": true,
+   "end_reason": "task_complete",
+   "task_complete": true
+  }
+ },
+ "why": "episode_ended=True end_reason=task_complete"
+}
+evaluate: {"status": "completed", "task_complete": true, "episode_id": "walk_to_cube_exploration_004_de0aa739", "step_id": 344, "task": "walk_to_cube", "evaluation_kind": "binary_task_completion", "decided_at_unix_s": 1792473112.28532, "episode_ended": true, "end_reason": "task_complete", "agent_assessment": "controller v1 unattended"}
+finish: {"episode_id": "walk_to_cube_exploration_004_de0aa739", "step_id": 344, "closed": true, "episode_ended": true, "task_complete": true, "end_reason": "task_complete"}

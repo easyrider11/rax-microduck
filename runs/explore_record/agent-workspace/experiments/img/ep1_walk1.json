@@ -1,0 +1,211 @@
+{
+ "episode_id": "walk_to_cube_exploration_001_52ae7004",
+ "step_id": 50,
+ "task": "walk_to_cube",
+ "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+ "state": {
+  "base_pose": {
+   "xy_m": [
+    0.22709148065026918,
+    0.029788152107577112
+   ],
+   "z_m": 0.12076255013946566,
+   "yaw_rad": -0.06562668773848998
+  },
+  "projected_gravity": [
+   -0.016587602300775977,
+   -0.054997835570537126,
+   -0.9983486813395751
+  ],
+  "gyro_radps": [
+   -0.11230250572700541,
+   0.08194000160181583,
+   0.1961176814775315
+  ],
+  "joint_positions_rad": {
+   "left_hip_yaw": -0.10137800506079116,
+   "left_hip_roll": -0.032378814923541416,
+   "left_hip_pitch": -0.3880788373008255,
+   "left_knee": 0.43294755142377833,
+   "left_ankle": 0.5157386194414212,
+   "neck_pitch": 0.3042029207629998,
+   "head_pitch": 0.3936419111870684,
+   "head_yaw": 0.057611677582694434,
+   "head_roll": -0.05598776532126539,
+   "right_hip_yaw": 0.10352735706537167,
+   "right_hip_roll": 0.07021092325195924,
+   "right_hip_pitch": 0.3186943970750297,
+   "right_knee": 0.14203329559144448,
+   "right_ankle": -0.24168567430660143
+  },
+  "commanded_twist": [
+   0.3,
+   0.0,
+   0.0
+  ],
+  "commanded_head": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "images": [
+  "head_camera",
+  "overview"
+ ],
+ "depth": {
+  "head_camera": {
+   "shape": [
+    320,
+    240
+   ],
+   "encoding": "uint16_png",
+   "unit": "millimeters",
+   "meters_per_unit": 0.001,
+   "invalid_value": 0,
+   "invalid_pixels": 0,
+   "min_meters": 0.36934763193130493,
+   "max_meters": 56.15421676635742,
+   "content_index": 3
+  },
+  "overview": {
+   "shape": [
+    320,
+    240
+   ],
+   "encoding": "uint16_png",
+   "unit": "millimeters",
+   "meters_per_unit": 0.001,
+   "invalid_value": 0,
+   "invalid_pixels": 0,
+   "min_meters": 0.4357511103153229,
+   "max_meters": 56.15421676635742,
+   "content_index": 4
+  }
+ },
+ "camera_intrinsics": {
+  "head_camera": {
+   "matrix": [
+    [
+     230.51785523653993,
+     0.0,
+     160.0
+    ],
+    [
+     0.0,
+     230.51785523653993,
+     120.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "width": 320,
+   "height": 240,
+   "fovy_deg": 55.0
+  },
+  "overview": {
+   "matrix": [
+    [
+     207.84609690826534,
+     0.0,
+     160.0
+    ],
+    [
+     0.0,
+     207.84609690826534,
+     120.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "width": 320,
+   "height": 240,
+   "fovy_deg": 60.0
+  }
+ },
+ "camera_poses": {
+  "head_camera": {
+   "position_m": [
+    0.2950639781249642,
+    0.020438943743965914,
+    0.24543956236802875
+   ],
+   "quaternion_wxyz": [
+    -0.48385013152838047,
+    -0.5078561868969953,
+    0.4550132368653217,
+    0.5485746056169164
+   ],
+   "frame": "world",
+   "convention": "OpenGL camera: looks along -Z, +Y up; image row 0 at the top"
+  },
+  "overview": {
+   "position_m": [
+    -0.55,
+    0.45,
+    0.42
+   ],
+   "quaternion_wxyz": [
+    -0.40809443476458607,
+    -0.25115759327048753,
+    0.46003669824564086,
+    0.74749249623257
+   ],
+   "frame": "world",
+   "convention": "OpenGL camera: looks along -Z, +Y up; image row 0 at the top"
+  }
+ },
+ "episode_limits": {
+  "episode_step_limit": 1500,
+  "remaining_episode_steps": 1450
+ },
+ "episode_ended": false,
+ "transition": {
+  "kind": "step",
+  "steps_requested": 50,
+  "steps_executed": 50,
+  "step_id": 50,
+  "commanded_twist": [
+   0.3,
+   0.0,
+   0.0
+  ],
+  "commanded_head": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "episode_ended": false
+ },
+ "frame_sequence": {
+  "sequence_id": "seq_000050_6f58e9b2",
+  "frequency_hz": 5.0,
+  "frame_stride_steps": 10,
+  "frame_count": 6,
+  "manifest_path": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000050_6f58e9b2/manifest.json",
+  "frame_path_pattern": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000050_6f58e9b2/frame_{frame_index:06d}_{camera}_rgb.png",
+  "frame_index_range": [
+   0,
+   5
+  ],
+  "streams": [
+   {
+    "camera": "head_camera",
+    "kind": "rgb"
+   },
+   {
+    "camera": "overview",
+    "kind": "rgb"
+   }
+  ],
+  "returned_images": "final_frame_only"
+ }
+}

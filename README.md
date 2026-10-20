@@ -44,9 +44,10 @@ harness expects and how the `robot-interface` skill template was filled.
   from RAX main at the commit in `agent_skills/RAX_COMMIT`) with tool roles substituted, this
   robot's `robot-interface` skill with every number measured by `rax_microduck/characterize.py`,
   AGENTS.md, TASK.md, MCP_SESSION.md, MCP_CONTRACT.json and `api/runtime.py`.
-- **Memory**: the service peaks at about 1.2 GB RSS (MuJoCo + onnxruntime + the renderer; see
-  `peak_rss_mb` in each session's `state.json`); the demo client at 50 MB. Measured, well under
-  the 8 GB target.
+- **Memory**: the service's peak resident size (`peak_rss_mb` in each session's `state.json`,
+  from `getrusage`) was 0.6 GB for the exploration session, 0.75 GB for its formal batch and
+  1.0 GB for `make demo`; the demo client peaks at 40-50 MB. Measured on the M3, well under the
+  8 GB target.
 
 ## What does not work, or differs from RAX
 
@@ -77,7 +78,39 @@ harness expects and how the `robot-interface` skill template was filled.
 
 ## The exploration session
 
-EXPLORATION_SECTION
+One session was run on 2026-10-19 and is recorded under `runs/explore_record/` (the
+service's `mcp.jsonl` and `state.json`, the agent's whole workspace: notes, experiments,
+controller; the saved frames are not committed).
+
+**How it was run, honestly.** The Claude Code CLI's OAuth login on this machine had expired
+(`claude -p` fails with "OAuth session expired and could not be refreshed"), so `make explore`
+could not drive Claude Code through `--mcp-config`. The session was run instead by a Claude
+agent (Claude Fable 5.1, spawned as a subagent of the session that built this repo) working in
+the rendered RAX workspace with the kickoff prompt, with no MCP tools attached: it reached the
+robot only through RAX's development path, `api.runtime.Context` over the same Unix socket,
+which is how the agent's own scripts and controllers talk to the robot on every RAX branch.
+It was told not to read anything outside the workspace. The MCP service therefore saw exactly
+what it would see from a controller: 77 tool calls, 0 errors (4 `start_episode`, 36
+`microduck_step`, 16 `microduck_hold`, 7 `microduck_observe`, 1 `microduck_pixel_to_position`,
+4 `evaluate`, 4 `finish`). The run took 21 minutes and about 180k agent tokens.
+
+**Outcome.** All four exploration episodes ended with `task_complete: true` (593, 302, 767 and
+344 steps): episode 1 by hand, episodes 2 and 4 by the agent's controller unattended from
+`start_episode`, episode 3 by the controller after the agent had first turned the robot away
+from the cube by hand. The agent wrote `code/walk_to_cube/` (`controller.py`, `perception.py`,
+`motion.py`, README): blue-mask perception with its own depth back-projection (checked against
+`microduck_pixel_to_position`), fusion of head-camera, locked-odometry and overview estimates,
+an approach at `vx = 0.3` with proportional yaw, an "inch" phase of short bursts and holds, and
+a head/body scan for a cube out of view. It also measured for itself what the robot-interface
+skill states (a yaw of 1.0 to turn from standstill, `vx = 0.2` not starting a gait, the hold's
+yaw swing), and its final report lists what it did not verify (the scan branch ran only against
+a mock; no cube beyond 0.93 m was seen).
+
+**Formal batch** (`results/agent_controller_formal.json`, five held-out layouts the agent never
+saw): **4/5**, 870, 429, 289 and 294 steps. The failure (layout 4) stalled 12 cm from the
+cube: each turn-in-place swung the heading without closing the last 2 cm, the controller
+alternated turns and holds for 900 steps and returned at step 1332 with `ok: false`. The
+reference controller written by hand before the session also scores 4/5 (its failure is a fall).
 
 ## Layout
 

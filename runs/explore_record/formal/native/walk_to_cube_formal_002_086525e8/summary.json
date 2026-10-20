@@ -1,0 +1,42 @@
+{
+  "close_reason": "task_complete",
+  "closed": true,
+  "end_reason": "task_complete",
+  "ended": true,
+  "episode_id": "walk_to_cube_formal_002_086525e8",
+  "ground_truth": {
+    "base": {
+      "xy_m": [
+        -0.6179701962998908,
+        0.00933601726289241
+      ],
+      "yaw_rad": 2.7078957743079273,
+      "z_m": 0.11576971651176281
+    },
+    "cube_moved_m": 1.5717961551343476e-09,
+    "cube_xy_m": [
+      -0.6924248599413825,
+      0.0434742510147499
+    ],
+    "distance_m": 0.08244417380645618,
+    "feet_mid_xy_m": [
+      -0.6175027511259765,
+      0.009069027497359054
+    ],
+    "gravity_z": -0.9998833446022378,
+    "speed_mps": 0.04905265074071774,
+    "still": true,
+    "trunk_z_m": 0.11576971651176281
+  },
+  "layout": {
+    "collection": 1,
+    "id": 1
+  },
+  "native_score": 1.0,
+  "native_success": true,
+  "run_id": "walk_to_cube_formal_20261020T051312Z_2ae304",
+  "started_at_unix_s": 1792473192.283652,
+  "step_id": 429,
+  "steps": 429,
+  "success": true
+}

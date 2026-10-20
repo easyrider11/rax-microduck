@@ -1,0 +1,1692 @@
+{
+ "log": {
+  "t0": 1792472154.4013891,
+  "stop_dist": 0.14,
+  "steps": [
+   {
+    "name": "approach_0",
+    "meta": {
+     "episode_id": "walk_to_cube_exploration_001_52ae7004",
+     "step_id": 50,
+     "task": "walk_to_cube",
+     "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+     "state": {
+      "base_pose": {
+       "xy_m": [
+        0.22709148065026918,
+        0.029788152107577112
+       ],
+       "z_m": 0.12076255013946566,
+       "yaw_rad": -0.06562668773848998
+      },
+      "projected_gravity": [
+       -0.016587602300775977,
+       -0.054997835570537126,
+       -0.9983486813395751
+      ],
+      "gyro_radps": [
+       -0.11230250572700541,
+       0.08194000160181583,
+       0.1961176814775315
+      ],
+      "joint_positions_rad": {
+       "left_hip_yaw": -0.10137800506079116,
+       "left_hip_roll": -0.032378814923541416,
+       "left_hip_pitch": -0.3880788373008255,
+       "left_knee": 0.43294755142377833,
+       "left_ankle": 0.5157386194414212,
+       "neck_pitch": 0.3042029207629998,
+       "head_pitch": 0.3936419111870684,
+       "head_yaw": 0.057611677582694434,
+       "head_roll": -0.05598776532126539,
+       "right_hip_yaw": 0.10352735706537167,
+       "right_hip_roll": 0.07021092325195924,
+       "right_hip_pitch": 0.3186943970750297,
+       "right_knee": 0.14203329559144448,
+       "right_ankle": -0.24168567430660143
+      },
+      "commanded_twist": [
+       0.3,
+       0.0,
+       0.0
+      ],
+      "commanded_head": [
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "images": [
+      "head_camera",
+      "overview"
+     ],
+     "depth": {
+      "head_camera": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.36934763193130493,
+       "max_meters": 56.15421676635742,
+       "content_index": 3
+      },
+      "overview": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.4357511103153229,
+       "max_meters": 56.15421676635742,
+       "content_index": 4
+      }
+     },
+     "episode_limits": {
+      "episode_step_limit": 1500,
+      "remaining_episode_steps": 1450
+     },
+     "episode_ended": false
+    }
+   },
+   {
+    "name": "approach_1",
+    "meta": {
+     "episode_id": "walk_to_cube_exploration_001_52ae7004",
+     "step_id": 100,
+     "task": "walk_to_cube",
+     "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+     "state": {
+      "base_pose": {
+       "xy_m": [
+        0.39561754263164833,
+        0.02673980480598535
+       ],
+       "z_m": 0.12137090503077046,
+       "yaw_rad": 0.19903116143032665
+      },
+      "projected_gravity": [
+       -0.028305673751552275,
+       -0.03978099021892291,
+       -0.9988074197014533
+      ],
+      "gyro_radps": [
+       -0.05985306547402741,
+       -0.16047274571275005,
+       0.38557933432104413
+      ],
+      "joint_positions_rad": {
+       "left_hip_yaw": -0.13061119734378013,
+       "left_hip_roll": -0.07453001539067222,
+       "left_hip_pitch": -0.22542764499680884,
+       "left_knee": 0.49347633637744925,
+       "left_ankle": 0.4517349800074679,
+       "neck_pitch": 0.370004161604131,
+       "head_pitch": 0.3775433892390359,
+       "head_yaw": 0.039764397911408636,
+       "head_roll": -0.06288248291802723,
+       "right_hip_yaw": 0.08433692585814453,
+       "right_hip_roll": 0.10779575296451913,
+       "right_hip_pitch": 0.4117147332777857,
+       "right_knee": 0.10755050194291847,
+       "right_ankle": -0.3018462152364246
+      },
+      "commanded_twist": [
+       0.3,
+       0.0,
+       0.251890654409082
+      ],
+      "commanded_head": [
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "images": [
+      "head_camera",
+      "overview"
+     ],
+     "depth": {
+      "head_camera": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.44964146614074707,
+       "max_meters": 56.15421676635742,
+       "content_index": 3
+      },
+      "overview": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.4357511103153229,
+       "max_meters": 56.15421676635742,
+       "content_index": 4
+      }
+     },
+     "episode_limits": {
+      "episode_step_limit": 1500,
+      "remaining_episode_steps": 1400
+     },
+     "episode_ended": false,
+     "transition": {
+      "kind": "step",
+      "steps_requested": 50,
+      "steps_executed": 50,
+      "step_id": 100,
+      "commanded_twist": [
+       0.3,
+       0.0,
+       0.251890654409082
+      ],
+      "commanded_head": [
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "episode_ended": false
+     },
+     "frame_sequence": {
+      "sequence_id": "seq_000100_28d7d781",
+      "frequency_hz": 5.0,
+      "frame_stride_steps": 10,
+      "frame_count": 6,
+      "manifest_path": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000100_28d7d781/manifest.json",
+      "frame_path_pattern": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000100_28d7d781/frame_{frame_index:06d}_{camera}_rgb.png",
+      "frame_index_range": [
+       0,
+       5
+      ],
+      "streams": [
+       {
+        "camera": "head_camera",
+        "kind": "rgb"
+       },
+       {
+        "camera": "overview",
+        "kind": "rgb"
+       }
+      ],
+      "returned_images": "final_frame_only"
+     }
+    }
+   },
+   {
+    "name": "approach_2",
+    "meta": {
+     "episode_id": "walk_to_cube_exploration_001_52ae7004",
+     "step_id": 150,
+     "task": "walk_to_cube",
+     "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+     "state": {
+      "base_pose": {
+       "xy_m": [
+        0.5738763610785066,
+        0.034806539540450245
+       ],
+       "z_m": 0.12413011840598052,
+       "yaw_rad": -0.04402755895736751
+      },
+      "projected_gravity": [
+       -0.024761813456726192,
+       -0.06293437964487966,
+       -0.9977104371775652
+      ],
+      "gyro_radps": [
+       -0.013811392032917156,
+       -0.09999895155381452,
+       -0.16727477787664333
+      ],
+      "joint_positions_rad": {
+       "left_hip_yaw": -0.06405164633465166,
+       "left_hip_roll": -0.10798465953010376,
+       "left_hip_pitch": -0.21831665022992836,
+       "left_knee": 0.4057882949729298,
+       "left_ankle": 0.42951645238212116,
+       "neck_pitch": 0.36048536035407613,
+       "head_pitch": 1.011349336505002,
+       "head_yaw": -0.03311276896201092,
+       "head_roll": -0.029481320831427106,
+       "right_hip_yaw": 0.008735345536572145,
+       "right_hip_roll": 0.16408811006996138,
+       "right_hip_pitch": 0.4048031409713177,
+       "right_knee": 0.1435659836789594,
+       "right_ankle": -0.31057296822038843
+      },
+      "commanded_twist": [
+       0.3,
+       0.0,
+       -0.23802649710514778
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ]
+     },
+     "images": [
+      "head_camera",
+      "overview"
+     ],
+     "depth": {
+      "head_camera": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.20169886946678162,
+       "max_meters": 1.83690345287323,
+       "content_index": 3
+      },
+      "overview": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.4357511103153229,
+       "max_meters": 56.15421676635742,
+       "content_index": 4
+      }
+     },
+     "episode_limits": {
+      "episode_step_limit": 1500,
+      "remaining_episode_steps": 1350
+     },
+     "episode_ended": false,
+     "transition": {
+      "kind": "step",
+      "steps_requested": 50,
+      "steps_executed": 50,
+      "step_id": 150,
+      "commanded_twist": [
+       0.3,
+       0.0,
+       -0.23802649710514778
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ],
+      "episode_ended": false
+     },
+     "frame_sequence": {
+      "sequence_id": "seq_000150_14aca7d1",
+      "frequency_hz": 5.0,
+      "frame_stride_steps": 10,
+      "frame_count": 6,
+      "manifest_path": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000150_14aca7d1/manifest.json",
+      "frame_path_pattern": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000150_14aca7d1/frame_{frame_index:06d}_{camera}_rgb.png",
+      "frame_index_range": [
+       0,
+       5
+      ],
+      "streams": [
+       {
+        "camera": "head_camera",
+        "kind": "rgb"
+       },
+       {
+        "camera": "overview",
+        "kind": "rgb"
+       }
+      ],
+      "returned_images": "final_frame_only"
+     }
+    }
+   },
+   {
+    "name": "approach_3",
+    "meta": {
+     "episode_id": "walk_to_cube_exploration_001_52ae7004",
+     "step_id": 200,
+     "task": "walk_to_cube",
+     "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+     "state": {
+      "base_pose": {
+       "xy_m": [
+        0.7502011945191379,
+        0.046068403813246166
+       ],
+       "z_m": 0.12277683856690154,
+       "yaw_rad": 0.2065853167785601
+      },
+      "projected_gravity": [
+       -0.03557168372272737,
+       -0.017561101082583366,
+       -0.9992128216981092
+      ],
+      "gyro_radps": [
+       0.44886327626244216,
+       0.1357670062387488,
+       0.7506088104846952
+      ],
+      "joint_positions_rad": {
+       "left_hip_yaw": -0.006661053792818242,
+       "left_hip_roll": -0.08320042573586477,
+       "left_hip_pitch": -0.10214367464749144,
+       "left_knee": 0.048278836308895234,
+       "left_ankle": 0.30366987022162767,
+       "neck_pitch": 0.40950459004496115,
+       "head_pitch": 0.9234605131811677,
+       "head_yaw": -0.08930006665582556,
+       "head_roll": -0.01906160345577969,
+       "right_hip_yaw": -0.01989829526186202,
+       "right_hip_roll": 0.19654333244600758,
+       "right_hip_pitch": 0.5513344995634905,
+       "right_knee": 0.11833362450379445,
+       "right_ankle": -0.4235649577214753
+      },
+      "commanded_twist": [
+       0.3,
+       0.0,
+       0.2786756208902066
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ]
+     },
+     "images": [
+      "head_camera",
+      "overview"
+     ],
+     "depth": {
+      "head_camera": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.22323161363601685,
+       "max_meters": 56.15421676635742,
+       "content_index": 3
+      },
+      "overview": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.4357511103153229,
+       "max_meters": 56.15421676635742,
+       "content_index": 4
+      }
+     },
+     "episode_limits": {
+      "episode_step_limit": 1500,
+      "remaining_episode_steps": 1300
+     },
+     "episode_ended": false,
+     "transition": {
+      "kind": "step",
+      "steps_requested": 50,
+      "steps_executed": 50,
+      "step_id": 200,
+      "commanded_twist": [
+       0.3,
+       0.0,
+       0.2786756208902066
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ],
+      "episode_ended": false
+     },
+     "frame_sequence": {
+      "sequence_id": "seq_000200_f2aea15c",
+      "frequency_hz": 5.0,
+      "frame_stride_steps": 10,
+      "frame_count": 6,
+      "manifest_path": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000200_f2aea15c/manifest.json",
+      "frame_path_pattern": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000200_f2aea15c/frame_{frame_index:06d}_{camera}_rgb.png",
+      "frame_index_range": [
+       0,
+       5
+      ],
+      "streams": [
+       {
+        "camera": "head_camera",
+        "kind": "rgb"
+       },
+       {
+        "camera": "overview",
+        "kind": "rgb"
+       }
+      ],
+      "returned_images": "final_frame_only"
+     }
+    }
+   },
+   {
+    "name": "approach_4",
+    "meta": {
+     "episode_id": "walk_to_cube_exploration_001_52ae7004",
+     "step_id": 215,
+     "task": "walk_to_cube",
+     "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+     "state": {
+      "base_pose": {
+       "xy_m": [
+        0.774514169914658,
+        0.0873111413823158
+       ],
+       "z_m": 0.12285074284429044,
+       "yaw_rad": 0.16857442688932678
+      },
+      "projected_gravity": [
+       -0.01624066845801517,
+       0.030986413872170375,
+       -0.9993878540603633
+      ],
+      "gyro_radps": [
+       -0.43379344457544505,
+       0.10763100371708885,
+       -0.6726196020934939
+      ],
+      "joint_positions_rad": {
+       "left_hip_yaw": 0.01501152356999393,
+       "left_hip_roll": -0.16151932602466615,
+       "left_hip_pitch": -0.4838174407434828,
+       "left_knee": -0.12431564639931549,
+       "left_ankle": 0.3613912256180886,
+       "neck_pitch": 0.34291681443267136,
+       "head_pitch": 0.9567487650357451,
+       "head_yaw": 0.03711756437940137,
+       "head_roll": 0.046693874284242404,
+       "right_hip_yaw": 0.06845289311533505,
+       "right_hip_roll": 0.11315141737849763,
+       "right_hip_pitch": 0.1882927831552837,
+       "right_knee": -0.3053515931246275,
+       "right_ankle": -0.40437317372439785
+      },
+      "commanded_twist": [
+       0.2,
+       0.0,
+       -0.18494421421027418
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ]
+     },
+     "images": [
+      "head_camera",
+      "overview"
+     ],
+     "depth": {
+      "head_camera": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.1928848773241043,
+       "max_meters": 2.127845048904419,
+       "content_index": 3
+      },
+      "overview": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.4357511103153229,
+       "max_meters": 56.15421676635742,
+       "content_index": 4
+      }
+     },
+     "episode_limits": {
+      "episode_step_limit": 1500,
+      "remaining_episode_steps": 1285
+     },
+     "episode_ended": false,
+     "transition": {
+      "kind": "step",
+      "steps_requested": 15,
+      "steps_executed": 15,
+      "step_id": 215,
+      "commanded_twist": [
+       0.2,
+       0.0,
+       -0.18494421421027418
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ],
+      "episode_ended": false
+     },
+     "frame_sequence": {
+      "sequence_id": "seq_000215_375bcd99",
+      "frequency_hz": 5.0,
+      "frame_stride_steps": 10,
+      "frame_count": 2,
+      "manifest_path": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000215_375bcd99/manifest.json",
+      "frame_path_pattern": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000215_375bcd99/frame_{frame_index:06d}_{camera}_rgb.png",
+      "frame_index_range": [
+       0,
+       1
+      ],
+      "streams": [
+       {
+        "camera": "head_camera",
+        "kind": "rgb"
+       },
+       {
+        "camera": "overview",
+        "kind": "rgb"
+       }
+      ],
+      "returned_images": "final_frame_only"
+     }
+    }
+   },
+   {
+    "name": "approach_5",
+    "meta": {
+     "episode_id": "walk_to_cube_exploration_001_52ae7004",
+     "step_id": 230,
+     "task": "walk_to_cube",
+     "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+     "state": {
+      "base_pose": {
+       "xy_m": [
+        0.8085661295920661,
+        0.05807053724266263
+       ],
+       "z_m": 0.12164406088748857,
+       "yaw_rad": 0.028756025534326688
+      },
+      "projected_gravity": [
+       -0.021761096327889744,
+       -0.03034594044757198,
+       -0.9993025460714884
+      ],
+      "gyro_radps": [
+       -0.029201037356244096,
+       0.03226927367897513,
+       -0.2776710692501203
+      ],
+      "joint_positions_rad": {
+       "left_hip_yaw": -0.04602778168425504,
+       "left_hip_roll": -0.08136765514590437,
+       "left_hip_pitch": -0.27638401449138383,
+       "left_knee": 0.42624704487250825,
+       "left_ankle": 0.45033450664564256,
+       "neck_pitch": 0.3641315921940303,
+       "head_pitch": 0.9915552840875136,
+       "head_yaw": -0.002714305793482413,
+       "head_roll": -0.022487290784666415,
+       "right_hip_yaw": 0.01776688649340574,
+       "right_hip_roll": 0.12685348254479467,
+       "right_hip_pitch": 0.423435474209335,
+       "right_knee": 0.11699574542750196,
+       "right_ankle": -0.3463097429161745
+      },
+      "commanded_twist": [
+       0.2,
+       0.0,
+       -0.4383067315958913
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ]
+     },
+     "images": [
+      "head_camera",
+      "overview"
+     ],
+     "depth": {
+      "head_camera": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.17348872125148773,
+       "max_meters": 1.903555154800415,
+       "content_index": 3
+      },
+      "overview": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.4357511103153229,
+       "max_meters": 56.15421676635742,
+       "content_index": 4
+      }
+     },
+     "episode_limits": {
+      "episode_step_limit": 1500,
+      "remaining_episode_steps": 1270
+     },
+     "episode_ended": false,
+     "transition": {
+      "kind": "step",
+      "steps_requested": 15,
+      "steps_executed": 15,
+      "step_id": 230,
+      "commanded_twist": [
+       0.2,
+       0.0,
+       -0.4383067315958913
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ],
+      "episode_ended": false
+     },
+     "frame_sequence": {
+      "sequence_id": "seq_000230_5ca9be70",
+      "frequency_hz": 5.0,
+      "frame_stride_steps": 10,
+      "frame_count": 3,
+      "manifest_path": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000230_5ca9be70/manifest.json",
+      "frame_path_pattern": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000230_5ca9be70/frame_{frame_index:06d}_{camera}_rgb.png",
+      "frame_index_range": [
+       0,
+       2
+      ],
+      "streams": [
+       {
+        "camera": "head_camera",
+        "kind": "rgb"
+       },
+       {
+        "camera": "overview",
+        "kind": "rgb"
+       }
+      ],
+      "returned_images": "final_frame_only"
+     }
+    }
+   },
+   {
+    "name": "approach_6",
+    "meta": {
+     "episode_id": "walk_to_cube_exploration_001_52ae7004",
+     "step_id": 245,
+     "task": "walk_to_cube",
+     "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+     "state": {
+      "base_pose": {
+       "xy_m": [
+        0.841236322101393,
+        0.08059373325108495
+       ],
+       "z_m": 0.12000944267905482,
+       "yaw_rad": -0.04901112615885572
+      },
+      "projected_gravity": [
+       -0.02551086799911349,
+       0.05037526254914868,
+       -0.9984044914447429
+      ],
+      "gyro_radps": [
+       0.1905788282958994,
+       0.10975645620407812,
+       0.1559427840581448
+      ],
+      "joint_positions_rad": {
+       "left_hip_yaw": -0.06423050270642919,
+       "left_hip_roll": -0.016638264614467126,
+       "left_hip_pitch": -0.40462043010177967,
+       "left_knee": -0.15722869514576876,
+       "left_ankle": 0.30001269227531424,
+       "neck_pitch": 0.4533327601372729,
+       "head_pitch": 1.0185183709995744,
+       "head_yaw": -0.019481695285646326,
+       "head_roll": -0.007888672901873476,
+       "right_hip_yaw": 0.06653054762811693,
+       "right_hip_roll": 0.07293261739179784,
+       "right_hip_pitch": 0.3478109435742174,
+       "right_knee": -0.299502764560838,
+       "right_ankle": -0.4564430916893195
+      },
+      "commanded_twist": [
+       0.2,
+       0.0,
+       0.13191634995263168
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ]
+     },
+     "images": [
+      "head_camera",
+      "overview"
+     ],
+     "depth": {
+      "head_camera": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.16604074835777283,
+       "max_meters": 7.416000843048096,
+       "content_index": 3
+      },
+      "overview": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.4357511103153229,
+       "max_meters": 56.15421676635742,
+       "content_index": 4
+      }
+     },
+     "episode_limits": {
+      "episode_step_limit": 1500,
+      "remaining_episode_steps": 1255
+     },
+     "episode_ended": false,
+     "transition": {
+      "kind": "step",
+      "steps_requested": 15,
+      "steps_executed": 15,
+      "step_id": 245,
+      "commanded_twist": [
+       0.2,
+       0.0,
+       0.13191634995263168
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ],
+      "episode_ended": false
+     },
+     "frame_sequence": {
+      "sequence_id": "seq_000245_59e01fa7",
+      "frequency_hz": 5.0,
+      "frame_stride_steps": 10,
+      "frame_count": 2,
+      "manifest_path": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000245_59e01fa7/manifest.json",
+      "frame_path_pattern": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000245_59e01fa7/frame_{frame_index:06d}_{camera}_rgb.png",
+      "frame_index_range": [
+       0,
+       1
+      ],
+      "streams": [
+       {
+        "camera": "head_camera",
+        "kind": "rgb"
+       },
+       {
+        "camera": "overview",
+        "kind": "rgb"
+       }
+      ],
+      "returned_images": "final_frame_only"
+     }
+    }
+   },
+   {
+    "name": "approach_7",
+    "meta": {
+     "episode_id": "walk_to_cube_exploration_001_52ae7004",
+     "step_id": 260,
+     "task": "walk_to_cube",
+     "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+     "state": {
+      "base_pose": {
+       "xy_m": [
+        0.8653214504830663,
+        0.08269374109241927
+       ],
+       "z_m": 0.11469444948541226,
+       "yaw_rad": 0.023742803140265646
+      },
+      "projected_gravity": [
+       -0.02748648789539964,
+       0.00379977332724125,
+       -0.9996149532224098
+      ],
+      "gyro_radps": [
+       -1.9624424265671223,
+       -0.16634172105363407,
+       -0.6008764728685926
+      ],
+      "joint_positions_rad": {
+       "left_hip_yaw": 0.014138273466365384,
+       "left_hip_roll": -0.09421771432165596,
+       "left_hip_pitch": -0.5149142987404803,
+       "left_knee": 0.09787510407138245,
+       "left_ankle": 0.5310729445132826,
+       "neck_pitch": 0.3420350247259956,
+       "head_pitch": 0.9994693820578245,
+       "head_yaw": 0.10028619880834755,
+       "head_roll": 0.029828544095730956,
+       "right_hip_yaw": 0.056595472823010806,
+       "right_hip_roll": -0.03825498036705963,
+       "right_hip_pitch": 0.30705531862491015,
+       "right_knee": 0.0932109674881869,
+       "right_ankle": -0.2694784583875906
+      },
+      "commanded_twist": [
+       0.2,
+       0.0,
+       0.031644522835309274
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ]
+     },
+     "images": [
+      "head_camera",
+      "overview"
+     ],
+     "depth": {
+      "head_camera": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.14816641807556152,
+       "max_meters": 1.3692207336425781,
+       "content_index": 3
+      },
+      "overview": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.4357511103153229,
+       "max_meters": 56.15421676635742,
+       "content_index": 4
+      }
+     },
+     "episode_limits": {
+      "episode_step_limit": 1500,
+      "remaining_episode_steps": 1240
+     },
+     "episode_ended": false,
+     "transition": {
+      "kind": "step",
+      "steps_requested": 15,
+      "steps_executed": 15,
+      "step_id": 260,
+      "commanded_twist": [
+       0.2,
+       0.0,
+       0.031644522835309274
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ],
+      "episode_ended": false
+     },
+     "frame_sequence": {
+      "sequence_id": "seq_000260_3ec35ca7",
+      "frequency_hz": 5.0,
+      "frame_stride_steps": 10,
+      "frame_count": 3,
+      "manifest_path": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000260_3ec35ca7/manifest.json",
+      "frame_path_pattern": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000260_3ec35ca7/frame_{frame_index:06d}_{camera}_rgb.png",
+      "frame_index_range": [
+       0,
+       2
+      ],
+      "streams": [
+       {
+        "camera": "head_camera",
+        "kind": "rgb"
+       },
+       {
+        "camera": "overview",
+        "kind": "rgb"
+       }
+      ],
+      "returned_images": "final_frame_only"
+     }
+    }
+   },
+   {
+    "name": "approach_8",
+    "meta": {
+     "episode_id": "walk_to_cube_exploration_001_52ae7004",
+     "step_id": 275,
+     "task": "walk_to_cube",
+     "instruction": "Walk to the blue cube and stop next to it: finish standing still with the midpoint of your feet within 10 cm of the cube, without knocking the cube away.",
+     "state": {
+      "base_pose": {
+       "xy_m": [
+        0.9003827565227288,
+        0.06214013154458209
+       ],
+       "z_m": 0.12112927448193737,
+       "yaw_rad": 0.017118953866681753
+      },
+      "projected_gravity": [
+       -0.027959464895763172,
+       -0.03401870843281546,
+       -0.9990300274763055
+      ],
+      "gyro_radps": [
+       0.1766030487242971,
+       -0.024317686481206496,
+       0.37476183345885555
+      ],
+      "joint_positions_rad": {
+       "left_hip_yaw": -0.05385578052272451,
+       "left_hip_roll": -0.04867802360756237,
+       "left_hip_pitch": -0.2327713387833903,
+       "left_knee": -0.031291447479770355,
+       "left_ankle": 0.3229642326996875,
+       "neck_pitch": 0.42874760808250617,
+       "head_pitch": 0.9657905726067025,
+       "head_yaw": -0.053458775305361056,
+       "head_roll": -0.03264619810468376,
+       "right_hip_yaw": -0.010856526372221181,
+       "right_hip_roll": 0.17277076156971186,
+       "right_hip_pitch": 0.5250162017770641,
+       "right_knee": 0.06653812677984695,
+       "right_ankle": -0.4639446272073332
+      },
+      "commanded_twist": [
+       0.2,
+       0.0,
+       -0.17116105132381332
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ]
+     },
+     "images": [
+      "head_camera",
+      "overview"
+     ],
+     "depth": {
+      "head_camera": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.22151683270931244,
+       "max_meters": 13.808379173278809,
+       "content_index": 3
+      },
+      "overview": {
+       "shape": [
+        320,
+        240
+       ],
+       "encoding": "uint16_png",
+       "unit": "millimeters",
+       "meters_per_unit": 0.001,
+       "invalid_value": 0,
+       "invalid_pixels": 0,
+       "min_meters": 0.4357511103153229,
+       "max_meters": 56.15421676635742,
+       "content_index": 4
+      }
+     },
+     "episode_limits": {
+      "episode_step_limit": 1500,
+      "remaining_episode_steps": 1225
+     },
+     "episode_ended": false,
+     "transition": {
+      "kind": "step",
+      "steps_requested": 15,
+      "steps_executed": 15,
+      "step_id": 275,
+      "commanded_twist": [
+       0.2,
+       0.0,
+       -0.17116105132381332
+      ],
+      "commanded_head": [
+       0.0,
+       0.6,
+       0.0,
+       0.0
+      ],
+      "episode_ended": false
+     },
+     "frame_sequence": {
+      "sequence_id": "seq_000275_0196920c",
+      "frequency_hz": 5.0,
+      "frame_stride_steps": 10,
+      "frame_count": 2,
+      "manifest_path": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000275_0196920c/manifest.json",
+      "frame_path_pattern": "runtime/autonomous_controller/runs/walk_to_cube_exploration_20261020T045252Z_7510be/frames/seq_000275_0196920c/frame_{frame_index:06d}_{camera}_rgb.png",
+      "frame_index_range": [
+       0,
+       1
+      ],
+      "streams": [
+       {
+        "camera": "head_camera",
+        "kind": "rgb"
+       },
+       {
+        "camera": "overview",
+        "kind": "rgb"
+       }
+      ],
+      "returned_images": "final_frame_only"
+     }
+    }
+   }
+  ],
+  "perceptions": [
+   {
+    "robot": {
+     "xy": [
+      0.22709148065026918,
+      0.029788152107577112
+     ],
+     "yaw": -0.06562668773848998
+    },
+    "cube_xy": [
+     1.0192760348003145,
+     0.0776296819210866
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.0192760348003145,
+      0.0776296819210866
+     ],
+     "surface": [
+      0.9944,
+      0.0757,
+      0.0331
+     ],
+     "pixels": 400,
+     "uv": [
+      146.67,
+      174.645
+     ],
+     "depth_m": 0.712
+    },
+    "overview": {
+     "xy": [
+      1.0216812734787317,
+      0.07870877592605681
+     ],
+     "surface": [
+      0.9974,
+      0.0845,
+      0.0348
+     ],
+     "pixels": 69,
+     "uv": [
+      87.2463768115942,
+      74.40579710144928
+     ],
+     "depth_m": 1.512
+    },
+    "step_id": 50,
+    "episode_ended": false,
+    "remaining": 1450,
+    "dist": 0.7936278597735862,
+    "bearing_err": 0.125945327204541
+   },
+   {
+    "robot": {
+     "xy": [
+      0.39561754263164833,
+      0.02673980480598535
+     ],
+     "yaw": 0.19903116143032665
+    },
+    "cube_xy": [
+     1.018326425614842,
+     0.07667429008505014
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.018326425614842,
+      0.07667429008505014
+     ],
+     "surface": [
+      0.9934,
+      0.0748,
+      0.0353
+     ],
+     "pixels": 788,
+     "uv": [
+      207.33629441624365,
+      216.38451776649745
+     ],
+     "depth_m": 0.527
+    },
+    "overview": {
+     "xy": [
+      1.0216812734787317,
+      0.07870877592605681
+     ],
+     "surface": [
+      0.9974,
+      0.0845,
+      0.0348
+     ],
+     "pixels": 69,
+     "uv": [
+      87.2463768115942,
+      74.40579710144928
+     ],
+     "depth_m": 1.512
+    },
+    "step_id": 100,
+    "episode_ended": false,
+    "remaining": 1400,
+    "dist": 0.6247077762972556,
+    "bearing_err": -0.11901324855257389
+   },
+   {
+    "robot": {
+     "xy": [
+      0.5738763610785066,
+      0.034806539540450245
+     ],
+     "yaw": -0.04402755895736751
+    },
+    "cube_xy": [
+     1.02214732860092,
+     0.07766120138866543
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.02214732860092,
+      0.07766120138866543
+     ],
+     "surface": [
+      0.9974,
+      0.074,
+      0.0371
+     ],
+     "pixels": 1400,
+     "uv": [
+      116.40142857142857,
+      88.925
+     ],
+     "depth_m": 0.379
+    },
+    "overview": {
+     "xy": [
+      1.0216812734787317,
+      0.07870877592605681
+     ],
+     "surface": [
+      0.9974,
+      0.0845,
+      0.0348
+     ],
+     "pixels": 69,
+     "uv": [
+      87.2463768115942,
+      74.40579710144928
+     ],
+     "depth_m": 1.512
+    },
+    "step_id": 150,
+    "episode_ended": false,
+    "remaining": 1350,
+    "dist": 0.4503147592136032,
+    "bearing_err": 0.1393378104451033
+   },
+   {
+    "robot": {
+     "xy": [
+      0.7502011945191379,
+      0.046068403813246166
+     ],
+     "yaw": 0.2065853167785601
+    },
+    "cube_xy": [
+     1.025237574636874,
+     0.07759063249879093
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.025237574636874,
+      0.07759063249879093
+     ],
+     "surface": [
+      1.0004,
+      0.0747,
+      0.0432
+     ],
+     "pixels": 3336,
+     "uv": [
+      159.52278177458032,
+      192.16996402877697
+     ],
+     "depth_m": 0.238
+    },
+    "overview": {
+     "xy": [
+      1.0216812734787317,
+      0.07870877592605681
+     ],
+     "surface": [
+      0.9974,
+      0.0845,
+      0.0348
+     ],
+     "pixels": 69,
+     "uv": [
+      87.2463768115942,
+      74.40579710144928
+     ],
+     "depth_m": 1.512
+    },
+    "step_id": 200,
+    "episode_ended": false,
+    "remaining": 1300,
+    "dist": 0.27683688570992776,
+    "bearing_err": -0.09247210710513709
+   },
+   {
+    "robot": {
+     "xy": [
+      0.774514169914658,
+      0.0873111413823158
+     ],
+     "yaw": 0.16857442688932678
+    },
+    "cube_xy": [
+     1.0259174131354556,
+     0.0745845777623944
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.0259174131354556,
+      0.0745845777623944
+     ],
+     "surface": [
+      1.0013,
+      0.0792,
+      0.0449
+     ],
+     "pixels": 4001,
+     "uv": [
+      218.62159460134967,
+      189.73906523369158
+     ],
+     "depth_m": 0.209
+    },
+    "overview": {
+     "xy": [
+      1.0323201878616894,
+      0.09839540070078744
+     ],
+     "surface": [
+      1.0079,
+      0.1038,
+      0.0317
+     ],
+     "pixels": 9,
+     "uv": [
+      84.22222222222223,
+      74.88888888888889
+     ],
+     "depth_m": 1.512
+    },
+    "step_id": 215,
+    "episode_ended": false,
+    "remaining": 1285,
+    "dist": 0.25172515989369715,
+    "bearing_err": -0.21915336579794564
+   },
+   {
+    "robot": {
+     "xy": [
+      0.8085661295920661,
+      0.05807053724266263
+     ],
+     "yaw": 0.028756025534326688
+    },
+    "cube_xy": [
+     1.0290058945581173,
+     0.07901197115503761
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.0290058945581173,
+      0.07901197115503761
+     ],
+     "surface": [
+      1.0043,
+      0.0751,
+      0.0491
+     ],
+     "pixels": 4750,
+     "uv": [
+      147.65936842105262,
+      202.20673684210527
+     ],
+     "depth_m": 0.187
+    },
+    "overview": {
+     "xy": [
+      1.0216016884911323,
+      0.09067951548446104
+     ],
+     "surface": [
+      0.9972,
+      0.0963,
+      0.0325
+     ],
+     "pixels": 38,
+     "uv": [
+      85.65789473684211,
+      74.94736842105263
+     ],
+     "depth_m": 1.50725
+    },
+    "step_id": 230,
+    "episode_ended": false,
+    "remaining": 1270,
+    "dist": 0.22143223259632794,
+    "bearing_err": 0.06595817497631584
+   },
+   {
+    "robot": {
+     "xy": [
+      0.841236322101393,
+      0.08059373325108495
+     ],
+     "yaw": -0.04901112615885572
+    },
+    "cube_xy": [
+     1.0498116900707781,
+     0.07366881078605829
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.0498116900707781,
+      0.07366881078605829
+     ],
+     "surface": [
+      1.0248,
+      0.0749,
+      0.0555
+     ],
+     "pixels": 2270,
+     "uv": [
+      146.29559471365639,
+      222.7559471365639
+     ],
+     "depth_m": 0.173
+    },
+    "overview": {
+     "xy": [
+      0.8601645997050098,
+      0.09852343721359816
+     ],
+     "surface": [
+      0.8359,
+      0.1046,
+      0.066
+     ],
+     "pixels": 13,
+     "uv": [
+      90.23076923076923,
+      75.38461538461539
+     ],
+     "depth_m": 1.367
+    },
+    "step_id": 245,
+    "episode_ended": false,
+    "remaining": 1255,
+    "dist": 0.20869029367632563,
+    "bearing_err": 0.015822261417654637
+   },
+   {
+    "robot": {
+     "xy": [
+      0.8653214504830663,
+      0.08269374109241927
+     ],
+     "yaw": 0.023742803140265646
+    },
+    "cube_xy": [
+     1.0547304691600559,
+     0.07096616656748549
+    ],
+    "source": "head_camera",
+    "head": {
+     "xy": [
+      1.0547304691600559,
+      0.07096616656748549
+     ],
+     "surface": [
+      1.0301,
+      0.0754,
+      0.055
+     ],
+     "pixels": 2331,
+     "uv": [
+      206.05662805662806,
+      224.45302445302445
+     ],
+     "depth_m": 0.152
+    },
+    "overview": {
+     "xy": [
+      1.0148281646355277,
+      0.06553805838583912
+     ],
+     "surface": [
+      0.9906,
+      0.0715,
+      0.0241
+     ],
+     "pixels": 17,
+     "uv": [
+      89.52941176470588,
+      75.82352941176471
+     ],
+     "depth_m": 1.518
+    },
+    "step_id": 260,
+    "episode_ended": false,
+    "remaining": 1240,
+    "dist": 0.1897717375175188,
+    "bearing_err": -0.08558052566190666
+   },
+   {
+    "robot": {
+     "xy": [
+      0.9003827565227288,
+      0.06214013154458209
+     ],
+     "yaw": 0.017118953866681753
+    },
+    "cube_xy": [
+     1.016975835103816,
+     0.07802394074366685
+    ],
+    "source": "overview",
+    "head": null,
+    "overview": {
+     "xy": [
+      1.016975835103816,
+      0.07802394074366685
+     ],
+     "surface": [
+      0.9927,
+      0.0838,
+      0.031
+     ],
+     "pixels": 20,
+     "uv": [
+      87.6,
+      75.05
+     ],
+     "depth_m": 1.5105
+    },
+    "step_id": 275,
+    "episode_ended": false,
+    "remaining": 1225,
+    "dist": 0.11767005297733368,
+    "bearing_err": 0.1182803743608436
+   }
+  ]
+ },
+ "report": {
+  "ok": false,
+  "measured": {
+   "after_approach": {
+    "robot": {
+     "xy": [
+      0.9003827565227288,
+      0.06214013154458209
+     ],
+     "yaw": 0.017118953866681753
+    },
+    "cube_xy": [
+     1.016975835103816,
+     0.07802394074366685
+    ],
+    "dist": 0.11767005297733368,
+    "step_id": 275
+   },
+   "final": {
+    "robot": {
+     "xy": [
+      0.9040101092291922,
+      0.0779356574565456
+     ],
+     "yaw": 0.11243541710957179
+    },
+    "cube_xy": [
+     1.0129788573576066,
+     0.06506064440863746
+    ],
+    "dist": 0.10972672431845225,
+    "step_id": 325,
+    "episode_ended": false
+   },
+   "end_reason": null
+  },
+  "why": "episode still running after settle"
+ }
+}
