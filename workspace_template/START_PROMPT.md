@@ -1,0 +1,1 @@
+Read AGENTS.md, then MCP_SESSION.md and TASK.md, and call `status`. Follow the AGENTS.md workflow: solve the task by hand, then write and test `code/<project>/controller.py:main(ctx)` on fresh episodes; when no exploration episode remains, write your final report and end your turn.

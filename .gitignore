@@ -1,0 +1,10 @@
+.venv/
+third_party/
+__pycache__/
+*.pyc
+runs/*
+!runs/README.md
+!runs/explore_record/
+runs/explore_record/**/published/**/frames/
+runs/explore_record/**/robot.sock
+.DS_Store

@@ -1,0 +1,63 @@
+{
+  "controller": "/Users/PC/code/rax-microduck/rax_microduck/reference_controller.py",
+  "episodes": 5,
+  "successes": 4,
+  "success_rate": 0.8,
+  "results": [
+    {
+      "episode": 0,
+      "episode_id": "walk_to_cube_formal_001_923a2d5f",
+      "success": true,
+      "end_reason": "task_complete",
+      "steps": 438,
+      "timed_out": false,
+      "wall_seconds": 4.2,
+      "controller_result": "{\"ok\": true, \"measured\": {\"distance_m\": 0.08261877519362269, \"end_reason\": \"task_complete\"}, \"why\": \"held still next to the cube\"}",
+      "stderr_tail": []
+    },
+    {
+      "episode": 1,
+      "episode_id": "walk_to_cube_formal_002_c5001ee8",
+      "success": true,
+      "end_reason": "task_complete",
+      "steps": 384,
+      "timed_out": false,
+      "wall_seconds": 4.0,
+      "controller_result": "{\"ok\": true, \"measured\": {\"distance_m\": 0.0883747515850089, \"end_reason\": \"task_complete\"}, \"why\": \"held still next to the cube\"}",
+      "stderr_tail": []
+    },
+    {
+      "episode": 2,
+      "episode_id": "walk_to_cube_formal_003_e6d28dd6",
+      "success": true,
+      "end_reason": "task_complete",
+      "steps": 270,
+      "timed_out": false,
+      "wall_seconds": 2.9,
+      "controller_result": "{\"ok\": true, \"measured\": {\"distance_m\": 0.06068753028588017, \"end_reason\": \"task_complete\"}, \"why\": \"held still next to the cube\"}",
+      "stderr_tail": []
+    },
+    {
+      "episode": 3,
+      "episode_id": "walk_to_cube_formal_004_08bc4f21",
+      "success": false,
+      "end_reason": "fell",
+      "steps": 12,
+      "timed_out": false,
+      "wall_seconds": 0.2,
+      "controller_result": "{\"ok\": false, \"measured\": {\"kind\": \"step\", \"steps_requested\": 15, \"steps_executed\": 12, \"step_id\": 12, \"commanded_twist\": [0.0, 0.0, 1.0], \"commanded_head\": [0.0, 0.0, 0.0, 0.0], \"episode_ended\": true, \"task_complete\": false, \"end_reason\": \"fell\"}, \"why\": \"ended while searching\"}",
+      "stderr_tail": []
+    },
+    {
+      "episode": 4,
+      "episode_id": "walk_to_cube_formal_005_afd21b3e",
+      "success": true,
+      "end_reason": "task_complete",
+      "steps": 468,
+      "timed_out": false,
+      "wall_seconds": 4.6,
+      "controller_result": "{\"ok\": true, \"measured\": {\"distance_m\": 0.1111053390323992, \"end_reason\": \"task_complete\"}, \"why\": \"episode ended during motion\"}",
+      "stderr_tail": []
+    }
+  ]
+}
